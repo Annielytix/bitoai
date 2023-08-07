@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Edell Presents Gen AI</title>
+  <style>
+    body {
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+
+    .navbar {
+      background-color: #ff709b;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: #000000;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .main-title {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 50px;
+    }
+
+    .explore-button {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .artwork {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .artwork img {
+      width: 200px;
+    }
+
+    .dynamic {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .dynamic .blog-card {
+      width: 30%;
+      padding: 20px;
+      background-color: #CE85F8;
+      color: #FFFFFF;
+    }
+
+    .subscribe {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .footer {
+      background-color: #ff709b;
+      padding: 10px;
+      text-align: center;
+      color: #000000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Works</a>
+    <a href="#">About</a>
+    <button>Search</button>
+  </div>
+
+  <div class="main-title">
+    <h1>Laura Edell Presents Gen AI</h1>
+  </div>
+
+  <div class="explore-button">
+    <a href="#works">Explore</a>
+  </div>
+
+  <div class="artwork">
+    <a href="#"><img src="https://www.bing.com/images/image1.jpg" alt="Artwork 1"></a>
+    <a href="#"><img src="https://www.bing.com/images/image2.jpg" alt="Artwork 2"></a>
+    <a href="#"><img src="https://www.bing.com/images/image3.jpg" alt="Artwork 3"></a>
+    <a href="#"><img src="https://www.bing.com/images/image4.jpg" alt="Artwork 4"></a>
+  </div>
+
+  <div class="dynamic">
+    <div class="blog-card">
+      <h2>Blog Post 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="blog-card">
+      <h2>Blog Post 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="blog-card">
+      <h2>Blog Post 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+
+  <div class="subscribe">
+    <h2>Subscribe to our newsletter</h2>
+    <form action="#">
+      <input type="email" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    &copy; <span id="year"></span> Laura Edell Presents Gen AI. All rights reserved.
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
